@@ -22,4 +22,9 @@ public class OtherTest {
         // fail 20% of the time
         assertTrue(Math.random() > 0.2);
     }
+
+    @Test
+    public void alwaysFail() {
+        assertTrue(false);
+    }
 }
