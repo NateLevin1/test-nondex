@@ -10,7 +10,7 @@ public class HmOrderTest {
         HmOrder order = new HmOrder();
         String alphabet = order.getAlphabet();
         // this can fail because hashmap ordering is implementation-dependent
-        // editing
+        // changed
         assertEquals(alphabet, "abcdefghijklmnopqrstuvwxyz");
     }
 
