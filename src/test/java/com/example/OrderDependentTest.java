@@ -9,6 +9,7 @@ public class OrderDependentTest {
 
     @Test
     public void testLocalEmptyVictim() {
+        // test modification
         assertEquals("", local);
     }
 
